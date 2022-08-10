@@ -1,1 +1,4 @@
-from . import test_print_logic
+
+__all__ = [
+    "test_print_logic"
+]
