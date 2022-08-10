@@ -7,5 +7,8 @@ setup(
     description="test package usage",
     packages=[
         "jupyter_files"
-    ]
+    ],
+    package_dir={
+        "jupyter_files": "./jupyter_files"
+    }
 )
