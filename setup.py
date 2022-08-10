@@ -9,6 +9,6 @@ setup(
         "jupyter_files"
     ],
     package_dir={
-        "jupyter_files": "./jupyter_files"
+        "jupyter_files": "./jupyter_files/*"
     }
 )
