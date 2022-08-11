@@ -15,3 +15,19 @@ def yield_spread(ytm, CGB_yield):
   """
   return ytm - CGB_yield/100
 
+"""
+from jupyter_files import Coupon_bond,y,yield_spread,
+
+
+#计算ytm, 对应网站上的yield
+
+a = Coupon_bond()
+ytm = a.get_ytm(101.3925, 100, 6.3, 1.61095890410959)
+
+#计算对应国债yield
+CGB_yield = y(1.61095890410959)
+
+#计算yield spread， 对应网站的yield spread
+y_spread = yield_spread(ytm,CGB_yield/100)
+
+"""
