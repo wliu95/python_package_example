@@ -14,3 +14,4 @@ def yield_spread(ytm, CGB_yield):
   CBG_yield = y(Maturity)
   """
   return ytm - CGB_yield/100
+
