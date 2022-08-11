@@ -8,3 +8,9 @@ tau=3.7965652566968324
 
 
 y = NelsonSiegelCurve(beta0, beta1, beta2, tau)
+
+def yield_spread(ytm, CGB_yield):
+  """
+  CBG_yield = y(Maturity)
+  """
+  return ytm - CGB_yield
